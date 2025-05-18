@@ -20,3 +20,9 @@ def eda_preli (df):
     print('_____________________')
     print('INFO')
     df.info()
+    print('______________________')
+    
+
+    def lower(df,col):
+    
+        df[col]=df[col].str.lower()
