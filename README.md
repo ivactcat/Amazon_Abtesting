@@ -35,12 +35,7 @@ GitHub Repository: Includes a .gitignore file to control which files and folders
         	src_ab_testing.py
         	src_eda.py
         
-            
-
-    o data_transformation
-        	categorical_and_numerical_analysis.parquet   
-        	dataset_cleaned.parquet    
-       
+             
 
     • Creating the Virtual Environment:
         1.	Navigate to the project folder.
@@ -49,7 +44,7 @@ GitHub Repository: Includes a .gitignore file to control which files and folders
         4.	Activate the environment: 
         5.	venv/bin/activate
         6   Install required libraries: 
-        7.	pip install pandas numpy jupyter
+        7.	pip install pandas numpy jupyter, matplotlib, seaborn, scipy
         8.	Create a requirements file: 
         9.	pip freeze > requirements.txt
 
