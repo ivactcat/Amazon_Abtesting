@@ -17,6 +17,41 @@ Analyze the impact of variants A and B on:
 •	Influence of contextual factors such as coupon usage, payment methods, session duration, device, region, customer age, and gender
 
 The purpose is to identify the most effective version to maximize business performance and enhance user experience.
+## Repository Structure
+GitHub Repository: Includes a .gitignore file to control which files and folders should be uploaded.
+• Folder Structure:
+
+    o data/: To store data files. 
+        	data_raw.csv
+        	clean_data.csv
+        	notnulls_data.csv
+        
+    o jupyter/: To store Jupyter Notebook files. 
+        	ab_testing.ipynb
+        	clean.ipynb
+        	eda_preliminar.ipynb
+        	nulls.ipynb
+    o py./ 
+        	src_ab_testing.py
+        	src_eda.py
+        
+            
+
+    o data_transformation
+        	categorical_and_numerical_analysis.parquet   
+        	dataset_cleaned.parquet    
+       
+
+    • Creating the Virtual Environment:
+        1.	Navigate to the project folder.
+        2.	Create a virtual environment: 
+        3.	py -m venv venv
+        4.	Activate the environment: 
+        5.	venv/bin/activate
+        6   Install required libraries: 
+        7.	pip install pandas numpy jupyter
+        8.	Create a requirements file: 
+        9.	pip freeze > requirements.txt
 
 ## Data Used
 
